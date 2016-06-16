@@ -1,0 +1,61 @@
+h2{
+	color: gray;
+	text-align: center;
+}
+
+.colorcode{
+	color: gray;
+	text-align: center;
+	font-size: 20px;
+}
+
+#buttons{
+	position: absolute;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+#wheel{
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.colorbox{
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#red{
+	background: red;
+	color: white;
+}
+
+#blue{
+	background: blue;
+	color: white;
+}
+
+#green{
+	background: green;
+	color: white;
+}
+
+#box{
+	width: 400px;
+	height: 350px;
+	background-color: black;
+	margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 1s ease-out;
+}
+
+h6{
+	color: gray;
+}

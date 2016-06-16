@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Random Color Generator</title>
+
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row colors">
+				<div class="col-md-4 colorbox" id="red">
+					R
+				</div>
+				<div class="col-md-4 colorbox" id="green">
+					G
+				</div>
+				<div class="col-md-4 colorbox" id="blue">
+					B
+				</div>
+			</div>
+			<div class="row">
+				<h6 class="col-md-4">click here for instructions</h6>
+				<h2 class="col-md-4">Random Color Generator</h1>
+			</div>
+			<div class="row">
+				<img src="color_wheel.png" id="wheel" onclick="randomColor();"/>
+			</div>
+			<div class="row colorcode"> 
+				<p id="colorid">rgb(0,0,0)</p>
+				<p id="colorhex">#000000</p>
+			</div>
+			<div class="row wrapper">
+				<div class="buttons">
+					<button id="lighter">&lt;</button>
+					<button id="darker">&gt;</button>
+				</div>
+			</div>
+			<div class="row" style="margin:0 auto;">
+				<div class="col-xs-offset-10" id="box"></div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</html>
